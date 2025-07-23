@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 6.2rem;
+}
+h2 {
+    font-size: 4.8rem;
+}
+h3 {
+    font-size: 4rem;
+}
+p, li, a {
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    gap: 2rem;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.dish-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.img-dish {
+    width: 800px;
+    height: auto;
+}
+.adobo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+    margin: 10rem;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.adobo-heading {
+    background-color: antiquewhite;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 5rem;
+}
+.ingredients-container, .step-container {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    padding: 5rem;
+    border-radius: 10px;
+}
+.ingredients-container {
+    background-color: rgb(241, 226, 13);
+    
+}
+.step-container {
+    background-color: rgb(235, 245, 105);
+    
+}
+.btn {
+    padding: 2rem 4rem;
+    background-color: rgb(139, 139, 112);
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+
+}
